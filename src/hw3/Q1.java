@@ -18,6 +18,8 @@ public class Q1 {
 		{System.out.print("正三角形");}
 	else if(num1 == num2 || num1==num3 || num2==num3)
 	    {System.out.print("等腰三角形");}
+	else if(num1*num1 == num2*num2+num3*num3 || num2*num2==num1*num1+num3*num3 || num3*num3==num1*num1+num2*num2)
+	    {System.out.println("直角三角形");}
 	else
 	    {System.out.print("其他三角形");}
 	
