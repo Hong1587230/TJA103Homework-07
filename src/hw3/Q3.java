@@ -72,6 +72,7 @@ public class Q3 {
 				 System.out.print(last[i]+" ");
 			 }
 		}
+		
 			 
 	}
 
